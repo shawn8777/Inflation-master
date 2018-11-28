@@ -61,9 +61,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CameraFollower\CameraFollower.cs" />
     <Compile Include="Assets\Robotic industrial dynamic arm\Scripts\RoboticArm.cs" />
+    <Compile Include="Assets\Script\Common\Camera\CameraController.cs" />
+    <Compile Include="Assets\Script\Common\Camera\Orbit.cs" />
+    <Compile Include="Assets\Script\Common\Camera\Pan.cs" />
+    <Compile Include="Assets\Script\Common\Camera\Pivot_Target.cs" />
+    <Compile Include="Assets\Script\Common\Camera\Zoom.cs" />
+    <Compile Include="Assets\Scripts\Edge.cs" />
+    <Compile Include="Assets\Scripts\EdgeObjetcs.cs" />
+    <Compile Include="Assets\Scripts\FoldingSystem.cs" />
     <Compile Include="Assets\Scripts\Inflated.cs" />
+    <Compile Include="Assets\Scripts\Inflation.cs" />
+    <Compile Include="Assets\Scripts\InflationManager.cs" />
+    <Compile Include="Assets\Scripts\PackageManager.cs" />
+    <Compile Include="Assets\Scripts\SpringObject.cs" />
     <Compile Include="Assets\Scripts\Unfolding.cs" />
+    <Compile Include="Assets\Scripts\VertObjects.cs" />
+    <None Include="Assets\FbxExporters\RELEASE_NOTES.txt" />
+    <None Include="Assets\FbxExporters\README.txt" />
+    <None Include="Assets\FbxExporters\LICENSE.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/wxy/Documents/Inflation-master/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -279,6 +296,9 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>C:/Users/wxy/Documents/Inflation-master/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/wxy/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

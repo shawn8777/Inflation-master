@@ -315,6 +315,15 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityFbxPrefab">
+      <HintPath>C:/Users/wxy/Documents/Inflation-master/Assets/FbxExporters/UnityFbxPrefab.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxExporterEditor">
+      <HintPath>C:/Users/wxy/Documents/Inflation-master/Assets/FbxExporters/Editor/UnityFbxExporterEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityFbxSdk">
+      <HintPath>C:/Users/wxy/Documents/Inflation-master/Assets/FbxExporters/Editor/FbxSdk/Plugins/UnityFbxSdk.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/wxy/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
