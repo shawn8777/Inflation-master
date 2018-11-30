@@ -57,20 +57,20 @@ public class PackageManager : MonoBehaviour
             AxisA.transform.Rotate(Vector3.up * Time.deltaTime * 10);
             AxisB.transform.Rotate(Vector3.up * Time.deltaTime * 10);
 
-            AxisC.transform.Rotate(Vector3.down * Time.deltaTime * 10);
-            AxisD.transform.Rotate(Vector3.down * Time.deltaTime * 10);
+            AxisC.transform.Rotate(Vector3.down * Time.deltaTime * -10);
+            AxisD.transform.Rotate(Vector3.down * Time.deltaTime * -10);
 
-            AxisXAa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
-            AxisXAb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
+            AxisXAa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
+            AxisXAb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
 
             AxisXBa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
             AxisXBb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
 
-            AxisXCa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
-            AxisXCb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
+            AxisXCa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
+            AxisXCb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
 
-            AxisXDa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
-            AxisXDb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
+            AxisXDa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
+            AxisXDb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
 
 
 
@@ -82,20 +82,20 @@ public class PackageManager : MonoBehaviour
             AxisA.transform.Rotate(Vector3.up * Time.deltaTime * -10);
             AxisB.transform.Rotate(Vector3.up * Time.deltaTime * -10);
 
-            AxisC.transform.Rotate(Vector3.down * Time.deltaTime * -10);
-            AxisD.transform.Rotate(Vector3.down * Time.deltaTime * -10);
+            AxisC.transform.Rotate(Vector3.down * Time.deltaTime * 10);
+            AxisD.transform.Rotate(Vector3.down * Time.deltaTime * 10);
 
-            AxisXAa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
-            AxisXAb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
+            AxisXAa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
+            AxisXAb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
 
             AxisXBa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
             AxisXBb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
 
-            AxisXCa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
-            AxisXCb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
+            AxisXCa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
+            AxisXCb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
 
-            AxisXDa.transform.Rotate(Vector3.down * Time.deltaTime * -20);
-            AxisXDb.transform.Rotate(Vector3.up * Time.deltaTime * -20);
+            AxisXDa.transform.Rotate(Vector3.down * Time.deltaTime * 20);
+            AxisXDb.transform.Rotate(Vector3.up * Time.deltaTime * 20);
 
 
 

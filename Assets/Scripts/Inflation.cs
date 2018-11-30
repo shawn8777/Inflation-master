@@ -11,8 +11,6 @@ namespace Folding
         [SerializeField] GameObject _vertPrefab;
         public PackageManager PK;
 
-        public Material m1;
-        public Material m2;
         //[SerializeField] bool _toInflat;
         //[SerializeField] float _inflateSpeed = 5f;
         Mesh _originalMesh;
