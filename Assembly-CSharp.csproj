@@ -63,17 +63,19 @@
   <ItemGroup>
     <Compile Include="Assets\CameraFollower\CameraFollower.cs" />
     <Compile Include="Assets\Robotic industrial dynamic arm\Scripts\RoboticArm.cs" />
-    <Compile Include="Assets\Script\Common\Camera\CameraController.cs" />
-    <Compile Include="Assets\Script\Common\Camera\Orbit.cs" />
-    <Compile Include="Assets\Script\Common\Camera\Pan.cs" />
-    <Compile Include="Assets\Script\Common\Camera\Pivot_Target.cs" />
-    <Compile Include="Assets\Script\Common\Camera\Zoom.cs" />
+    <Compile Include="Assets\Scripts\Camera Script\Common\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Camera Script\Common\Camera\Orbit.cs" />
+    <Compile Include="Assets\Scripts\Camera Script\Common\Camera\Pan.cs" />
+    <Compile Include="Assets\Scripts\Camera Script\Common\Camera\Pivot_Target.cs" />
+    <Compile Include="Assets\Scripts\Camera Script\Common\Camera\Zoom.cs" />
+    <Compile Include="Assets\Scripts\DoorMoving.cs" />
     <Compile Include="Assets\Scripts\Edge.cs" />
     <Compile Include="Assets\Scripts\EdgeObjetcs.cs" />
     <Compile Include="Assets\Scripts\FoldingSystem.cs" />
-    <Compile Include="Assets\Scripts\Inflated.cs" />
+    <Compile Include="Assets\Scripts\Hex_Vert.cs" />
     <Compile Include="Assets\Scripts\Inflation.cs" />
     <Compile Include="Assets\Scripts\InflationManager.cs" />
+    <Compile Include="Assets\Scripts\Mesh_variableFormation.cs" />
     <Compile Include="Assets\Scripts\PackageManager.cs" />
     <Compile Include="Assets\Scripts\SpringObject.cs" />
     <Compile Include="Assets\Scripts\Unfolding.cs" />

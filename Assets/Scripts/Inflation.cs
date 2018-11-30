@@ -40,7 +40,7 @@ namespace Folding
                 _updateVerts.Add(v);
                 // _VertObj.Add(v, vrig.transform);
 
-                DividedVertex(v,vrig);
+               // DividedVertex(v,vrig);
             }
 
 
