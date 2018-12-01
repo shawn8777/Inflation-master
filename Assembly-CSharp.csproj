@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\FoldingSystem.cs" />
     <Compile Include="Assets\Scripts\Hex_Vert.cs" />
     <Compile Include="Assets\Scripts\Inflation.cs" />
+    <Compile Include="Assets\Scripts\Inflation_Deflation.cs" />
     <Compile Include="Assets\Scripts\InflationManager.cs" />
     <Compile Include="Assets\Scripts\Mesh_variableFormation.cs" />
     <Compile Include="Assets\Scripts\PackageManager.cs" />

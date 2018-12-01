@@ -116,6 +116,15 @@ namespace Folding
             //{
             //    GetComponent<MeshRenderer>().material = m1;
             //}
+
+            //if (_toInflat)
+            //{
+            //    IF.Inflate(_inflateSpeed);
+            //}
+            //else
+            //{
+            //    IF.OffKinematic();
+            //}
         }
 
         public void UpdateMesh()

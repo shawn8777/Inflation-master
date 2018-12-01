@@ -18,16 +18,16 @@ public class DoorMoving : MonoBehaviour
         var dir = MovingCenter.position - transform.position;
 
 
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(dir * Time.deltaTime*0.5f);
-            print("Move");
-        }
+        //if (Input.GetKey(KeyCode.A))
+        //{
+        //    transform.Translate(dir * Time.deltaTime * 0.5f);
+        //    print("Move");
+        //}
 
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(-dir * Time.deltaTime*0.5f);
-            print("Move");
-        }
+        //if (Input.GetKey(KeyCode.D))
+        //{
+        //    transform.Translate(-dir * Time.deltaTime * 0.5f);
+        //    print("Move");
+        //}
     }
 }
